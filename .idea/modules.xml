@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Aritmetica/Aritmetica.iml" filepath="$PROJECT_DIR$/Aritmetica/Aritmetica.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArraysBidimensionles/ArraysBidimensionles.iml" filepath="$PROJECT_DIR$/ArraysBidimensionles/ArraysBidimensionles.iml" />
       <module fileurl="file://$PROJECT_DIR$/CajaLaboratorio/CajaLaboratorio.iml" filepath="$PROJECT_DIR$/CajaLaboratorio/CajaLaboratorio.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContextoEstadico/ContextoEstadico.iml" filepath="$PROJECT_DIR$/ContextoEstadico/ContextoEstadico.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Fundamentos.iml" filepath="$PROJECT_DIR$/.idea/Fundamentos.iml" />
