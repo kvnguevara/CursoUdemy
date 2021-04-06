@@ -12,8 +12,8 @@ public class testEmpleado {
         SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-dd");
         Date fecha = new Date();
         //Pruebas
-        System.out.println(sdf.format(fecha));
-        System.out.println(empleado);
+        //System.out.println(sdf.format(fecha));
+        //System.out.println(empleado);
 
         //Prueba Clientes
         Cliente cliente = new Cliente("Kevin Guevara",'m',33,"Calle Ledesma",true,fecha);
