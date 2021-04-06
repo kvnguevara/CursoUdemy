@@ -6,6 +6,10 @@ public class Empleado  extends Persona{
     private static int contadorEmpleado;
 
     //Constructor
+    public Empleado(){
+        //super(); se hace una llamada a super, de forma interna
+        this.idEmpleado = ++Empleado.contadorEmpleado;
+    }
 
 
     public Empleado(String nombre, double sueldo) {
