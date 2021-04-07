@@ -13,11 +13,11 @@ public class Producto {
 
     private Producto() {
 
-        this.idProducto = ++contadorProducto;
+        this.idProducto = ++Producto.contadorProducto;
     }
 
     public Producto(String nombre, double precio) {
-        this();
+        this(); //Llamada del constructor interno
         this.nombre = nombre;
         this.precio = precio;
     }
