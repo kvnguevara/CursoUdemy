@@ -9,13 +9,12 @@ public class Computadora {
     private static int contadorComputadora;
 
     //Contructores
-
-
     private Computadora() {
         this.idComputadora = ++Computadora.contadorComputadora;
     }
 
     public Computadora(String nombre, Monitor monitor, Raton raton, Teclado teclado) {
+        this();
         this.nombre = nombre;
         this.monitor = monitor;
         this.raton = raton;
@@ -66,9 +65,6 @@ public class Computadora {
         return contadorComputadora;
     }
 
-    public static void setContadorComputadora(int contadorComputadora) {
-        Computadora.contadorComputadora = contadorComputadora;
-    }
 
     //Metodo to String
 
@@ -77,9 +73,9 @@ public class Computadora {
         final StringBuffer sb = new StringBuffer("Computadora{");
         sb.append("idComputadora=").append(idComputadora);
         sb.append(", nombre='").append(nombre).append('\'');
-        sb.append(", monitor=").append(monitor.toString());
-        sb.append(", raton=").append(raton.toString());
-        sb.append(", teclado=").append(teclado.toString());
+        sb.append(",").append(monitor.toString());
+        sb.append(",").append(raton.toString());
+        sb.append(",").append(teclado.toString());
         sb.append('}');
         return sb.toString();
     }

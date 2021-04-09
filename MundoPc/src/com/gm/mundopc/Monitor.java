@@ -7,8 +7,6 @@ public class Monitor {
     private static int contadroMonitores;
 
     //Contructores
-
-
     public Monitor() {
         this.idMonitor = ++Monitor.contadroMonitores;
     }
@@ -43,9 +41,6 @@ public class Monitor {
         return contadroMonitores;
     }
 
-    public static void setContadroMonitores(int contadroMonitores) {
-        Monitor.contadroMonitores = contadroMonitores;
-    }
 
     @Override
     public String toString() {

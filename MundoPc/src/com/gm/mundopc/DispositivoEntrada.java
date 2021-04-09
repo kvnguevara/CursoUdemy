@@ -31,10 +31,9 @@ public class DispositivoEntrada {
 
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("DispositivoEntrada{");
+        final StringBuffer sb = new StringBuffer(" ");
         sb.append("tipoEntrada='").append(tipoEntrada).append('\'');
         sb.append(", marca='").append(marca).append('\'');
-        sb.append('}');
         return sb.toString();
     }
 }
