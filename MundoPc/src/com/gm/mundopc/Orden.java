@@ -3,7 +3,7 @@ package com.gm.mundopc;
 import java.util.Arrays;
 
 public class Orden {
-    private int idOrdenes;
+    private final int idOrdenes;
     private Computadora computadora[];
     private int contadorComputadora;
     private static int contadorOrdenes;
@@ -16,7 +16,7 @@ public class Orden {
     }
     public void agreagarComputador(Computadora c){
         if (contadorComputadora < Orden.MAX_COMPUTADORAS){
-            this.computadora[contadorComputadora++] = c;
+            this.computadora[this.contadorComputadora++] = c;
 
         } else {
             System.out.println("Ha superado el numero de Computadoras:"+Orden.MAX_COMPUTADORAS);
@@ -26,7 +26,7 @@ public class Orden {
 
     public void mostrarOrden(){
         System.out.println("IdOrden:"+this.idOrdenes);
-        for (int i = 0; i < contadorComputadora;i++){
+        for (int i = 0; i < this.contadorComputadora;i++){
             System.out.println(this.computadora[i].toString());
         }
     }

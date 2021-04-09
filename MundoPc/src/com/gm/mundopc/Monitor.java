@@ -1,13 +1,13 @@
 package com.gm.mundopc;
 
 public class Monitor {
-    private int idMonitor;
+    private final int idMonitor;
     private String marca;
     private double tamano;
     private static int contadroMonitores;
 
     //Contructores
-    public Monitor() {
+    private Monitor() {
         this.idMonitor = ++Monitor.contadroMonitores;
     }
 
@@ -37,7 +37,7 @@ public class Monitor {
         this.tamano = tamano;
     }
 
-    public static int getContadroMonitores() {
+    public int getContadroMonitores() {
         return contadroMonitores;
     }
 

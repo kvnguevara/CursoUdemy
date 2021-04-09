@@ -1,7 +1,7 @@
 package com.gm.mundopc;
 
 public class Computadora {
-    private int idComputadora;
+    private final int idComputadora;
     private String nombre;
     private Monitor monitor;
     private Raton raton;
@@ -70,12 +70,12 @@ public class Computadora {
 
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("Computadora{");
-        sb.append("idComputadora=").append(idComputadora);
-        sb.append(", nombre='").append(nombre).append('\'');
-        sb.append(",").append(monitor.toString());
-        sb.append(",").append(raton.toString());
-        sb.append(",").append(teclado.toString());
+        final StringBuffer sb = new StringBuffer("COMPUTADORA{");
+        sb.append("IDCOMPUTADORA:").append(idComputadora);
+        sb.append(", NOMBRE:'").append(nombre).append('\'');
+        sb.append(", MONITOR:, ").append(monitor.toString());
+        sb.append(", RATON:").append(raton.toString());
+        sb.append(", TECLADO:").append(teclado.toString());
         sb.append('}');
         return sb.toString();
     }

@@ -8,12 +8,12 @@ public class MundoPc {
         String marca;
         double tamano;*/
         //Crear la clase raton, teclado,orden, computadora
-        Raton r = new Raton("Raton","Mars Gamming");
-        Teclado t = new Teclado("Teclado","Mars Gamming");
+        Raton r = new Raton("Cable","Mars Gamming");
+        Teclado t = new Teclado("Bluetooh","Mars Gamming");
         Monitor m = new Monitor("Samsung",25.0);
         //
-        Raton r1 = new Raton("Raton","Mars Gamming");
-        Teclado t1 = new Teclado("Teclado","Mars Gamming");
+        Raton r1 = new Raton("Cable","Mars Gamming");
+        Teclado t1 = new Teclado("Bluetooh","Mars Gamming");
         Monitor m1 = new Monitor("Samsung",25.0);
         //Computadora(String nombre, Monitor monitor, Raton raton, Teclado teclado)
         Computadora c = new Computadora("Xiaomi",m,r,t);
